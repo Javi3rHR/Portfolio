@@ -1,57 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css"/>
-    <title>Portfolio</title>
-  </head>
-  <body class="dark">
-    <header class="header">
-      <div class="switches">
-        <div id="toggle-theme" class="toggle-theme">
-          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
-          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+        <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+      </div>
+    </div>
+    <div id="toggle-colors" class="colors">
+      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+      <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+      <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+      <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="colum colum--left">
+      <!--PROFILE CARD-->
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="assets/images/profile.jpg" alt="">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title">Javier Herreros Rodríguez</h2>
+          <h2 class="card__subtitle">Software Developer</h2>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fas fa-envelope icon"></i>
+            <a href="mailto:javi3rhr@gmail.com">
+              javi3rhr@gmail.com
+            </a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone-alt icon"></i>
+            <a href="tel:644477912">
+              644477912
+            </a>
+          </div>
+          <p class="card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Harum vitae libero modi optio minima natus porro perspiciatis <br>
+            temporibus veniam velit, illo et nihil. Temporibus nobis quidem <br>
+            ducimus quasi rerum hic?
+          </p>
+        </div>
+      </article>
+    </section>
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Front End</h2>
+        <small>Experiencia</small>
+        <!-- <div class="skills">
+        <div class="skills__header">
+          <span class="skills__start-level">0</span>
+          <span class="skills__start-level">1</span>
+        </div> -->
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech"> HTML</p>
+            <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech"> CSS</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech"> JavaScript</p>
+            <div class="skills__bar skills__bar--60"></div>
+          </div>
         </div>
       </div>
-        <div id="toggle-colors" class="colors">
-          <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
-          <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
-          <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
-          <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Back End</h2>
+        <small>Experiencia</small>
+        <div class="skills">
+        <div class="skills__item">
+          <p class="skills__tech"> PHP</p>
+          <div class="skills__bar skills__bar--40"></div>
         </div>
-      </header>
-    <main class="main">
-      <section class="colum colum--left">
-        <!--PROFILE CARD-->
-        <article class="card card--profile">
-          <div class="card__image-container">
-            <img src="assets/images/profile.jpg" alt="">
-          </div>
-          <div class="card__header">
-            <h2 class="card__title">Javier Herreros</h2>
-            <h2 class="card__subtitle">Software Developer</h2>
-          </div>
-          <div class="card__body">
-            <div class="card__link">
-              <i class="fas fa-envelope icon"></i>
-              <a href="mailto:javi3rhr@gmail.com">
-                javi3rhr@gmail.com
-              </a>
-            </div>
-            <div class="card__link">
-              <i class="fas fa-phone-alt icon"></i>
-              <a href="tel:644477912">
-                644477912
-              </a>
-            </div>
-          </div>
-        </article>
-      </section>
-    </main>
-    <script src="js/scripts.js"></script>
-  </body>
+        <div class="skills__item">
+          <p class="skills__tech"> Java</p>
+          <div class="skills__bar skills__bar--60"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech"> SQL</p>
+          <div class="skills__bar skills__bar--60"></div>
+        </div>
+      </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Skills</h2>
+        <small>Experiencia</small>
+        <div class="skills">
+        <div class="skills__item">
+          <p class="skills__tech"> Inglés</p>
+          <div class="skills__bar skills__bar--60"></div>
+        </div>
+        <div class="skills__item">
+          <p class="skills__tech"> Ekon ERP</p>
+          <div class="skills__bar skills__bar--40"></div>
+        </div>
+      </div>
+      </article>
+    </section>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>
 
 <script src="https://kit.fontawesome.com/364ad19633.js" crossorigin="anonymous"></script>
