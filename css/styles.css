@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    font-size: 1.2rem;
+}
+
 img {
     width: 100%;
     display: block;
@@ -133,6 +137,7 @@ body.dark {
 
 @media screen and (min-width:760px){
     .main{
+        min-width: 100%;
         grid-template-columns: min-content 1fr;
         padding: 2em;
     }
@@ -305,6 +310,7 @@ body.dark {
     margin-bottom: 1.5em;
 }
 
+
 .project {
     position: relative;
 }
@@ -344,6 +350,7 @@ body.dark {
     display: flex;
     justify-content: space-between;
     width: 230px;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 760px){
