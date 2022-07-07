@@ -100,7 +100,7 @@ body.dark {
     border: 1px solid var(--text-color);
     border-radius: 20%;
     background-color: var(--primary-color);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .colors__item--blue {
@@ -155,11 +155,10 @@ body.dark {
     padding: 1em;
     background-color: var(--bg-card-color);
     border-radius: var(--border-radius);
-    /* margin-bottom: 0.5em; */
 }
 
 .card__image-container {
-    min-width: 320px;
+    min-width: 250px;
     border-radius: var(--border-radius);
     overflow: hidden;
 }
