@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol": "Desarrollador Junior",
+        "description": "Descripcion en español"
+    },
+    "experience": {
+        "first-job-title": "Desarrollador Junior",
+        "first-job-dates": "May 2022 - Actualmente",
+        "first-job-description": "Descripcion en español",
+        "second-job-title": "Desarrollador Junior",
+        "second-job-dates": "May 2022 - Actualmente",
+        "second-job-description": "Descripcion en español",
+        "last-job-title": "Desarrollador Junior",
+        "last-job-dates": "May 2022 - Actualmente",
+        "last-job-description": "Descripcion en español"
+    }
+}

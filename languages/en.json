@@ -1,0 +1,17 @@
+{
+    "profile": {
+        "rol": "Junior Developer",
+        "description": "English description"
+    },
+    "experience": {
+        "first-job-title": "Junior Developer",
+        "first-job-dates": "May 2022 - Current",
+        "first-job-description": "English description",
+        "second-job-title": "Junior Developer",
+        "second-job-dates": "May 2022 - Current",
+        "second-job-description": "English description",
+        "last-job-title": "Junior Developer",
+        "last-job-dates": "May 2022 - Current",
+        "last-job-description": "English description"
+    }
+}
